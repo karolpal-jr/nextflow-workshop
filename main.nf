@@ -28,5 +28,3 @@ process align {
                   | sambamba sort /dev/stdin -o "${sample}.bam" 2> file.err
   """
 }
-
-
