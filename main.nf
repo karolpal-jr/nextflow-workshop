@@ -1,7 +1,6 @@
 params.proj = ""
 input_ch = Channel.fromFilePairs("${launchDir}/${params.proj}/*_R{1,2}.fastq.gz")
 
-
 process align {
 
   memory '16 GB'
